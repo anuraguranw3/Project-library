@@ -1,2 +1,2 @@
 # Project-library
-library using (html, css, js) 
+Simple library using (html, css, js) 
