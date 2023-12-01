@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(51, 241, 241);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+}
+
+#add-books {
+    font-size: 30px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#add-books:hover {
+    background-color: rgb(220, 220, 220);
+}
