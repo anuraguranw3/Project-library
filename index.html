@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-library</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         <h1>library</h1>
     </div>
     <button id="add-books">+Add Books</button>
+
+    <div class="lib-form hidden">
+        <h2>Add new book</h2>
+        <form>
+            <input type="text" placeholder="Title of book">
+            <input type="text" placeholder="Author Name">
+            <input type="number" placeholder="No. of pages">
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

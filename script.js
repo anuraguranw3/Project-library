@@ -1,5 +1,9 @@
-function info(name, author, pages, status) {
-    return name + " " + author + " " + pages + " " + status;
+function workingProperly() {
+    alert("working properly");
 }
 
-console.log(info("Anurag", "Uranw", 25, "pending"));
+const btn1 = document.querySelector("#add-books");
+
+btn1.addEventListener('click', () => {
+    workingProperly();
+})
