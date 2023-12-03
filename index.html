@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-library</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="header">
         <h1>library</h1>
     </div>
     <button id="add-books">+Add Books</button>
 
-    <div class="lib-form hidden">
-        <h2>Add new book</h2>
-        <form>
-            <input type="text" placeholder="Title of book">
-            <input type="text" placeholder="Author Name">
-            <input type="number" placeholder="No. of pages">
-            <button type="submit">Submit</button>
-            <button type="reset">Clear</button>
-        </form>
+    <div class="bg">
+        <div class="lib-form">
+            <h2>Add new book</h2>
+            <form>
+                <input type="text" placeholder="Title of book">
+                <input type="text" placeholder="Author Name">
+                <input type="number" placeholder="No. of pages">
+                <button type="submit" class="form-btn">Submit</button>
+                <button type="reset" class="form-btn">Clear</button>
+                <button id="back">Back</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="book-list">
+        <ul>
+            <li>
+                <h2>Name of the book</h2>
+                <h2>Name of the author</h2>
+                <h3>No. of pages</h3>
+                <button>remove</button>
+            </li>
+            <li>book2</li>
+            <li>book3</li>
+            <li>book4</li>
+            <li>book5</li>
+            <li>book6</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+            <li>book7</li>
+        </ul>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
